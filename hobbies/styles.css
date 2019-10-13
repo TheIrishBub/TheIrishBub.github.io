@@ -1,0 +1,72 @@
+* {
+  font-family: Verdana;
+  background-color: #79ad75;
+}
+
+.about, .hobbies, .projects {
+  display: flex;
+  align-items: center;
+}
+
+.about a, .hobbies a, .projects a {
+  padding: 20px;
+}
+
+.about a:hover, .hobbies a:hover, .projects a:hover, section.cubing a:hover,
+section.gaming a:hover, section.music a:hover {
+  background-color: #d56671;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+}
+
+.facebook, .twitch, .twitter, .youtube {
+  width: 25%;
+}
+
+footer {
+  border: 2px solid black;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  font-size: 24pt;
+  justify-content: center;
+}
+
+section.about {
+  font-size: 24pt;
+  border-bottom: 1px solid;
+}
+
+section.contact {
+  display: flex;
+  font-size: 24pt;
+  justify-content: center;
+}
+
+section.cubing, section.gaming, section.music {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+section.cubing a, section.gaming a, section.music a {
+  padding: 10px;
+}
+
+section.socials {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}

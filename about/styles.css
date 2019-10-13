@@ -1,0 +1,97 @@
+* {
+  font-family: Verdana;
+  background-color: #79ad75;
+}
+
+.about, .hobbies, .projects {
+  display: flex;
+  align-items: center;
+}
+
+.about a, .hobbies a, .projects a {
+  padding: 20px;
+}
+
+.about a:hover, .hobbies a:hover, .projects a:hover {
+  background-color: #d56671;
+}
+
+button.hobbies {
+  border: none;
+  cursor: pointer;
+  font-size: 12pt;
+}
+
+div.hobbies {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+}
+
+div.hobbies:hover .hobby-links {
+  display: block;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+}
+
+.facebook, .twitch, .twitter, .youtube {
+  width: 25%;
+}
+
+footer {
+  border: 2px solid black;
+}
+
+.hobby-links {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+
+.hobby-links a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.hobby-links a:hover {
+  background-color: #d56671;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  font-size: 24pt;
+  justify-content: center;
+}
+
+section.socials {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+section.about {
+  font-size: 24pt;
+  border-bottom: 1px solid;
+}
+
+section.contact {
+  display: flex;
+  font-size: 24pt;
+  justify-content: center;
+}
