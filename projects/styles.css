@@ -16,16 +16,6 @@
   background-color: #d56671;
 }
 
-.body {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.body p, .body img {
-  padding: 10px;
-}
-
 button.hobbies {
   border: none;
   cursor: pointer;
@@ -53,7 +43,6 @@ div.hobbies:hover .hobby-links {
 
 footer {
   border: 2px solid black;
-  margin: 10px;
 }
 
 .hobby-links {
@@ -90,10 +79,34 @@ footer {
   justify-content: center;
 }
 
+.proj {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.proj-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.proj img {
+  display: flex;
+}
+
+.proj p, .proj img {
+  padding: 10px;
+}
+
 section.socials {
   display: flex;
   flex-direction: row;
   padding: 10px;
+}
+
+section.about {
+  font-size: 24pt;
+  border-bottom: 1px solid;
 }
 
 section.contact {

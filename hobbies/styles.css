@@ -3,18 +3,38 @@
   background-color: #79ad75;
 }
 
-.about, .hobbies, .projects {
+.about, .hobbies, .home, .projects {
   display: flex;
   align-items: center;
 }
 
-.about a, .hobbies a, .projects a {
+.about a, .hobbies a, .home a, .projects a {
   padding: 20px;
 }
 
-.about a:hover, .hobbies a:hover, .projects a:hover, section.cubing a:hover,
-section.gaming a:hover, section.music a:hover {
+.about a:hover, .hobbies a:hover, .home a:hover, .projects a:hover,
+section.cubing a:hover, section.gaming a:hover, section.music a:hover {
   background-color: #d56671;
+}
+
+button.hobbies {
+  border: none;
+  cursor: pointer;
+  font-size: 12pt;
+}
+
+div.hobbies {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+}
+
+div.hobbies:hover .hobby-links {
+  display: block;
+}
+
+div p {
+  padding: 10px;
 }
 
 .email {
@@ -28,6 +48,28 @@ section.gaming a:hover, section.music a:hover {
 
 footer {
   border: 2px solid black;
+}
+
+.hobby-links {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+
+.hobby-links a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.hobby-links a:hover {
+  background-color: #d56671;
 }
 
 .links {
@@ -62,6 +104,7 @@ section.cubing, section.gaming, section.music {
 }
 
 section.cubing a, section.gaming a, section.music a {
+  font-size: 18pt;
   padding: 10px;
 }
 
