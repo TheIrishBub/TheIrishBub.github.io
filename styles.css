@@ -32,6 +32,22 @@ button.hobbies {
   font-size: 12pt;
 }
 
+.cube:hover {
+  transition: 3s;
+  color: red;
+   transition: 3s;
+  color: blue;
+   transition: 3s;
+  color: orange;
+   transition: 3s;
+  color: white;
+   transition: 3s;
+  color: green;
+   transition: 3s;
+  color: yellow;
+ 
+}
+
 div.hobbies {
   position: relative;
   display: inline-block;
@@ -101,3 +117,4 @@ section.contact {
   font-size: 24pt;
   justify-content: center;
 }
+
